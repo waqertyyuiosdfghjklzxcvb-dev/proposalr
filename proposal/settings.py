@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ctjelw3n74a6yv1^mf9m8q22d*7zn7n$_m4lg)6!)^&v2+5i6a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -145,3 +145,4 @@ SUPABASE_URL = 'https://aopehfvyhxmstttqohyy.supabase.co'
 SUPABASE_KEY = 'sb_secret_CbvsYN_f2ZrhODAx1lv08g_iuS1EdUw'
 
 print("TEMPLATE DIRS:", BASE_DIR / 'templates')
+
