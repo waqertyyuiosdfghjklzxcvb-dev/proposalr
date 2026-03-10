@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ctjelw3n74a6yv1^mf9m8q22d*7zn7n$_m4lg)6!)^&v2+5i6a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*'.'proposalr.onrender.com']
 
 
 CSRF_TRUSTED_ORIGINS = [
@@ -145,4 +145,5 @@ SUPABASE_URL = 'https://aopehfvyhxmstttqohyy.supabase.co'
 SUPABASE_KEY = 'sb_secret_CbvsYN_f2ZrhODAx1lv08g_iuS1EdUw'
 
 print("TEMPLATE DIRS:", BASE_DIR / 'templates')
+
 
